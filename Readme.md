@@ -1,6 +1,6 @@
 # How To Host
 The easiest way to deploy this Bot
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/war-legend/camillavcbot2.0"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-redblack?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/BROKENCOBRA/legend-alonemusc"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-redblack?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 Get STRING_NAME from here:
 
@@ -30,17 +30,12 @@ Get STRING_NAME from here:
 - `/resume` - resume song play
 - `/skip` - play next song
 - `/end` - stop music play
-## Our Telegram Channel and Group
-
-* [Warbotz](https://telegram.dog/thewarbotz)
-
-* [WarBotzChat](https://telegram.dog/warbotzsupport)
 
 ## Credits, and Thanks to 
 
-*   [Abhishek](https://telegram.dog/xabhisheksingh)
+*   [S•4•Shiv](https://t.me/shivamdemon)
 
-*. [Lucifer](https://t.me/lmlucifer)
+*. [Mahipal](https://t.me/alone_boy_xd_01)
 
 
 
