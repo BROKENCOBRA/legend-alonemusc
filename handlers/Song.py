@@ -22,9 +22,9 @@ from youtube_dl.utils import (
 async def song(client, message):
     cap = "@warbotz"
     url = message.text.split(None, 1)[1]
-    rkp = await message.reply("Processing...")
+    rkp = await message.reply("𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠...𝐇𝐨𝐥𝐝 𝐎𝐧")
     if not url:
-        await rkp.edit("**What's the song you want?**\nUsage`/song <song name>`")
+        await rkp.edit("**𝐖𝐡𝐢𝐜𝐡 𝐒𝐨𝐧𝐠 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭?**\n𝐔𝐬𝐚𝐠𝐞`/song <song name>`")
     search = SearchVideos(url, offset=1, mode="json", max_results=1)
     test = search.result()
     p = json.loads(test)
@@ -32,7 +32,7 @@ async def song(client, message):
     try:
         url = q[0]["link"]
     except BaseException:
-        return await rkp.edit("Failed to find that song.")
+        return await rkp.edit("𝐅𝐚𝐢𝐥𝐞𝐝 𝐓𝐨 𝐅𝐢𝐧𝐝 𝐓𝐡𝐚𝐭 𝐒𝐨𝐧𝐠.")
     type = "audio"
     if type == "audio":
         opts = {
@@ -56,7 +56,7 @@ async def song(client, message):
         }
         song = True
     try:
-        await rkp.edit("Downloading...")
+        await rkp.edit("𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠...𝐇𝐨𝐥𝐝 𝐎𝐧")
         with YoutubeDL(opts) as rip:
             rip_data = rip.extract_info(url)
     except DownloadError as DE:
@@ -90,7 +90,7 @@ async def song(client, message):
         return
     time.time()
     if song:
-        await rkp.edit("Uploading...") #blaze
+        await rkp.edit("𝐔𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠...𝐇𝐨𝐥𝐝 𝐎𝐧") #blaze
         lol = "./etc/thumb.jpg"
         lel = await message.reply_audio(
                  f"{rip_data['id']}.mp3",
